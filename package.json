@@ -1,0 +1,12 @@
+{
+	"name": "cs4241-a7_8-scybot",
+	"version": "0.0.1",
+	"description": "WPI CS 4241 Assignment 7/8",
+	"author": "Sebastian Salvo",
+	"private": true,
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+	}
+}

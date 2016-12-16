@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title> YipYap</title>
+
+	<script>
+		function checkforblank() {
+			if(document.getElementById('message').value == '') {
+				alert('please enter a post');
+				document.getElementById('message').style.borderColor = "red";
+				return false;
+			}
+		}
+
+	</script>
+
+</head>
+
+<body>
+	<script type="text/javascript">
+		function postMessage() {
+			var mess = document.getElementById("message");
+			var board = document.getElementById("board");	
+		}
+
+		/*function postMessage() {
+			var mess = document.getElementById("message");
+			var second = document.getElementById("board");
+			
+			board.innerHTML = mess.value;
+			localStorage.setItem('board', JSON.stringify(second.value));
+		}
+		var post = [{
+			subject: 'Analysis',
+			body: 'it doesn\'t look like anything to me'
+		}}
+		localStorage.setItem('message', JSON.stringify(post));*/
+	</script>
+
+	<form method="post" onsubmit="return checkforblank()">
+		<fieldset>
+		Type your message: <input type="text" id="message"/><br/>
+		<input type="submit" value="Post" onclick="postMessage();"/>
+		</fieldset>
+	</form>
+	
+	<p id="board"></p>
+</body>
+

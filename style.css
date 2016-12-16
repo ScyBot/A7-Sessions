@@ -1,0 +1,35 @@
+/* these are styles designed for my YipYap application for assignment 7/8 of webware development
+ * done by Sebastian Salvo 
+ */
+
+body
+{
+
+	background-color: steelblue;
+
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+}
+
+
+body > article
+{
+	
+	text-align: center;
+
+	color: white;
+
+}
+
+
+
+h1
+{
+
+	margin: 10px 0;
+	color: pink;
+
+}
+
+
+
